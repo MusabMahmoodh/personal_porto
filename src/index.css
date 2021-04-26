@@ -1,13 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans&display=swap');
+
+/* Variables */
+:root {
+  /*  The secondary font can be applied, for example, to a heading element */
+  --font-primary: 'Lato', sans-serif;
+  --font-secondary: 'Noto Sans', sans-serif;
+
+  /* set base values */
+  --text-base-size: 1em;
+  /* You can apply the scale to any measurable element (margin, paddings, etc.) */
+  --text-scale-ratio: 1.2;
+}
+/* General settings */
+*,::after,::before{
+    margin:0;
+    box-sizing: border-box;
+}
 body {
+  
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  line-height:1;
+  font-family:var(--font-primary) ;
+  font-smooth:always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: var(--text-base-size);
 }
 
-code {
+
+h1, h2, h3, h4, form legend {
+  color: var(--color-text-heading);
+  line-height: var(--heading-line-height);
+}
+
+
+
+blockquote { }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
+
+
+
+/* || Typography */
+
+
