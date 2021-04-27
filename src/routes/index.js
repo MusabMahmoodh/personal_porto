@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Media from "react-media";
 import {
+  CAMERA_ROUTE,
   HOME_PAGE_ROUTE,
   NOTIFICATION_PAGE_ROUTE,
   RECENT_PAGE_ROUTE,
@@ -20,6 +21,7 @@ import DesktopLayout from "../layout/layout_desktop/DesktopLayout";
 import MobileLayout from "../layout/layout_mobile/MobileLayout";
 import RecentPage from "../pages/recent_page/RecentPage";
 import NotificationsPage from "../pages/notifications_page/NotificationsPage";
+import Camera from "../apps/camera/Camera";
 // import ManagementLayout from "../../layouts/management_layout/ManagementLayout";
 function UserRoutes() {
   return (
@@ -51,6 +53,7 @@ function UserRoutes() {
                       path={HOME_PAGE_ROUTE}
                       component={HomePageMobile}
                     />
+                    <Route exact path={CAMERA_ROUTE} component={Camera} />
                   </MobileLayout>
                 ) : (
                   <DesktopLayout>
@@ -59,6 +62,7 @@ function UserRoutes() {
                       path={HOME_PAGE_ROUTE}
                       component={HomePageDesktop}
                     />
+                    <Route exact path={CAMERA_ROUTE} component={Camera} />
                   </DesktopLayout>
                 )}
               </>

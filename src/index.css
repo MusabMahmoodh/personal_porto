@@ -20,13 +20,14 @@
 
   /* Heights for layouts */
   --height-mobile-top:5vh;
-  --height-mobile-content:80vh;
+  --height-mobile-content:90vh;
   --height-mobile-bottom:5vh;
 
   --height-desktop-bottom:6vh;
   --height-desktop-content:94vh;
   /* Icon size */
-  --size-icons-lg:1.7em;
+  --size-icons-xl:3.1em;
+  --size-icons-lg:2em;
   --size-icons-md:1.4em;
   --size-icons-sm:1.1em;
 

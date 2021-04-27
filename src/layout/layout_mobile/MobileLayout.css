@@ -5,19 +5,24 @@
 .mobile__layout__top , .mobile__layout__bottom,.mobile__layout__content{
     position: fixed;
     width: 100%;
-    padding:var(--padding-primary)
+    padding:var(--padding-primary);
+   
+
 }
 .mobile__layout__top{
     height:var(--height-mobile-top) ;
     top:0;
+   
 }
 
 .mobile__layout__content{
     height:var(--height-mobile-content) ;
     top:var(--height-mobile-top) ;
+   
 }
 .mobile__layout__bottom{
     
     height:var(  --height-mobile-bottom) ;
     bottom: 0;
+   
 }

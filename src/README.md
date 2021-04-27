@@ -20,3 +20,5 @@ setting
 -brightness
 -wallpaper
 -time format
+
+//Todo: Swipe screens

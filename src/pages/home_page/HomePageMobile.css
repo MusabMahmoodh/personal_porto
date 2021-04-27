@@ -1,0 +1,27 @@
+.homepage__mobile{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height:100%;
+   
+
+}
+.homepage__mobile > div{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+    width:100%;
+
+}
+.homepage__mobile__top{
+    height:88%;
+    border:solid 1px red;
+   
+}
+.homepage__mobile__bottom{
+    height:12%;
+   
+    font-size:var(--size-icons-xl)
+}
