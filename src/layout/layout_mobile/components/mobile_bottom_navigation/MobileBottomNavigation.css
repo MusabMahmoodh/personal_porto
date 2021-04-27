@@ -1,0 +1,10 @@
+.mobile__bottom__navigation{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.mobile__bottom__navigation__icon{
+    font-size:var(--size-icons-md)
+    
+}

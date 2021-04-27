@@ -10,6 +10,22 @@
   --text-base-size: 1em;
   /* You can apply the scale to any measurable element (margin, paddings, etc.) */
   --text-scale-ratio: 1.2;
+
+  /* Margis and padding */
+  --padding-primary: 0.1em 0.5em;
+
+
+  /* Heights for layouts */
+  --height-mobile-top:5vh;
+  --height-mobile-content:80vh;
+  --height-mobile-bottom:5vh;
+  /* Icon size */
+  --size-icons-lg:1.7em;
+  --size-icons-md:1.4em;
+  --size-icons-sm:.5em;
+
+  /* Colors */
+  --text-primary:#fafafa;
 }
 /* General settings */
 *,::after,::before{

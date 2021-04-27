@@ -1,0 +1,9 @@
+.app{
+    background:url(./assets/default_bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:var(--text-primary)
+
+}

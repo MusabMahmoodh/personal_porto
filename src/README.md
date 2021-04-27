@@ -15,3 +15,8 @@
 -camera > https://openbase.com/js/react-webcam/documentation#demo
 -design ant design -https://www.npmjs.com/package/react-router-bootstrap
 -side transitive https://github.com/ipenywis/react-slide-page-transition
+
+setting
+-brightness
+-wallpaper
+-time format
