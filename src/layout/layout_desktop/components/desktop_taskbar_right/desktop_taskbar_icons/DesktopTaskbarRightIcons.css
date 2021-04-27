@@ -1,0 +1,10 @@
+.mobile__top__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile__top__icons-icon{
+    padding:0 .2em;
+    font-size:var(--size-icons-sm)
+    
+}

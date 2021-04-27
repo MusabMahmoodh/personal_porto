@@ -8,7 +8,7 @@ import {
   RECENT_PAGE_ROUTE,
 } from "../../constants/route_constants";
 import NotificationsPage from "../../pages/notifications_page/NotificationsPage";
-import RecentPage from "../../pages/recent_page/RecentPage.jsx";
+import RecentPage from "../../pages/recent_page/RecentPage";
 // import ManagementLayout from "../../layouts/management_layout/ManagementLayout";
 function UserRoutes() {
   return (

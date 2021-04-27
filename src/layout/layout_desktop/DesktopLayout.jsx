@@ -1,5 +1,6 @@
 import React from "react";
-
+import DesktopTaskBar from "./components/desktop_taskbar/DesktopTaskBar";
+import "./DesktopLayout.css";
 const DesktopLayout = ({ children }) => {
   const [colorTheme, setColorTheme] = [
     {
@@ -8,9 +9,11 @@ const DesktopLayout = ({ children }) => {
     },
   ];
   return (
-    <div>
-      Desktop Layout
-      {children}
+    <div className="desktop__layout">
+      <div className="desktop__layout__content">{children}</div>
+      <div className="desktop__layout__bottom">
+        <DesktopTaskBar />
+      </div>
     </div>
   );
 };

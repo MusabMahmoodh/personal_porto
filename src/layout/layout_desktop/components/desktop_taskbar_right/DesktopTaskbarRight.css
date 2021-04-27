@@ -1,0 +1,15 @@
+.desktop__taskbar__right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.desktop__taskbar__right > div{
+    margin:0 10px;
+}
+.desktop__taskbar__right__dateTime > div {
+    font-size:var(--text-base-size--secondary);
+    padding:var( --padding-secondary);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

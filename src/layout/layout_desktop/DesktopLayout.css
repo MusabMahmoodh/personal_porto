@@ -1,0 +1,21 @@
+.desktop__layout{
+    height:100vh;
+
+}
+ .desktop__layout__bottom,.desktop__layout__content{
+    position: fixed;
+    width: 100%;
+    padding:var(--padding-primary-desktop);
+}
+
+
+.desktop__layout__content{
+    height:var(--height-desktop-content) ;
+    top:0 ;
+}
+.desktop__layout__bottom{
+    
+    height:var(  --height-desktop-bottom) ;
+    bottom: 0;
+    background:var( --bg--dark)
+}

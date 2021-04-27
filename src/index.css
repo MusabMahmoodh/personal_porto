@@ -8,24 +8,31 @@
 
   /* set base values */
   --text-base-size: 1em;
+  --text-base-size--secondary: .8em;
   /* You can apply the scale to any measurable element (margin, paddings, etc.) */
   --text-scale-ratio: 1.2;
 
   /* Margis and padding */
-  --padding-primary: 0.1em 0.5em;
+  --padding-primary: 0.2em 0.5em;
+  --padding-secondary: 0.2em ;
+  --padding-primary-desktop: 0.36em 0.8em;
 
 
   /* Heights for layouts */
   --height-mobile-top:5vh;
   --height-mobile-content:80vh;
   --height-mobile-bottom:5vh;
+
+  --height-desktop-bottom:6vh;
+  --height-desktop-content:94vh;
   /* Icon size */
   --size-icons-lg:1.7em;
   --size-icons-md:1.4em;
-  --size-icons-sm:.5em;
+  --size-icons-sm:1.1em;
 
   /* Colors */
   --text-primary:#fafafa;
+  --bg--dark:#454763;
 }
 /* General settings */
 *,::after,::before{

@@ -2,16 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./MobileTopLeft.css";
 
 import Moment from "react-moment";
-import moment from "moment";
+import useTimeNow from "../../../../../hooks/useTimeNow";
 const MobileTopLeft = () => {
-  const [timeNow, setTimeNow] = useState(new Date());
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeNow(new Date());
-    }, 1000);
-    return () => clearInterval(timer);
-  }, [timeNow]);
+  const timeNow = useTimeNow();
 
   return (
     <div className="mobile__top__left">
