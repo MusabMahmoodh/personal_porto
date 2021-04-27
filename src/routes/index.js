@@ -8,12 +8,18 @@ import {
   Redirect,
 } from "react-router-dom";
 import Media from "react-media";
-import { HOME_PAGE_ROUTE } from "../constants/route_constants";
+import {
+  HOME_PAGE_ROUTE,
+  NOTIFICATION_PAGE_ROUTE,
+  RECENT_PAGE_ROUTE,
+} from "../constants/route_constants";
 import HomePageDesktop from "../pages/home_page/HomePageDesktop";
 import HomePageMobile from "../pages/home_page/HomePageMobile";
-import ClientRoutes from "./client_routes/index";
+
 import DesktopLayout from "../layout/layout_desktop/DesktopLayout";
 import MobileLayout from "../layout/layout_mobile/MobileLayout";
+import RecentPage from "../pages/recent_page/RecentPage";
+import NotificationsPage from "../pages/notifications_page/NotificationsPage";
 // import ManagementLayout from "../../layouts/management_layout/ManagementLayout";
 function UserRoutes() {
   return (
@@ -30,7 +36,16 @@ function UserRoutes() {
               <>
                 {matches.small ? (
                   <MobileLayout>
-                    <ClientRoutes />
+                    <Route
+                      exact
+                      path={RECENT_PAGE_ROUTE}
+                      component={RecentPage}
+                    />
+                    <Route
+                      exact
+                      path={NOTIFICATION_PAGE_ROUTE}
+                      component={NotificationsPage}
+                    />
                     <Route
                       exact
                       path={HOME_PAGE_ROUTE}
@@ -39,7 +54,6 @@ function UserRoutes() {
                   </MobileLayout>
                 ) : (
                   <DesktopLayout>
-                    <ClientRoutes />
                     <Route
                       exact
                       path={HOME_PAGE_ROUTE}
