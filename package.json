@@ -25,6 +25,7 @@
     "react-scripts": "4.0.3",
     "react-swipeable": "^6.1.0",
     "react-swipeable-views": "^0.13.9",
+    "react-webcam": "^5.2.3",
     "webcam-react": "^5.2.0"
   },
   "scripts": {
