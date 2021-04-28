@@ -19,6 +19,7 @@ import HomePageMobile from "../pages/home_page/HomePageMobile";
 
 import DesktopLayout from "../layout/layout_desktop/DesktopLayout";
 import MobileLayout from "../layout/layout_mobile/MobileLayout";
+
 import RecentPage from "../pages/recent_page/RecentPage";
 import NotificationsPage from "../pages/notifications_page/NotificationsPage";
 import Camera from "../apps/camera/Camera";
@@ -53,6 +54,7 @@ function UserRoutes() {
                       path={HOME_PAGE_ROUTE}
                       component={HomePageMobile}
                     />
+
                     <Route exact path={CAMERA_ROUTE} component={Camera} />
                   </MobileLayout>
                 ) : (
