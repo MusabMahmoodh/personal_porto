@@ -2,4 +2,36 @@
     height: 100%;
     width: 100%;
     background-color: blue;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content:center;
+}
+.home__page__main > div{
+    width: 100%;
+    display:flex;
+    
+}
+.home__page__main__top{
+    justify-content:space-between;
+    align-items: flex-start;
+    flex:0.3;
+
+}
+.home__page__main__middle{
+    justify-content: center;
+    flex:0.1;
+}
+.home__page__main__bottom{
+    justify-content:space-around;
+    flex:0.6;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+.home__page__main__bottom .home__page__main__app{
+
+   width:22%;
+   
+    border: #333 2px solid;
 }

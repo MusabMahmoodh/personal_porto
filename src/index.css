@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&display=swap');
 
 /* Variables */
 :root {
   /*  The secondary font can be applied, for example, to a heading element */
   --font-primary: 'Lato', sans-serif;
-  --font-secondary: 'Noto Sans', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;;
 
   /* set base values */
   --text-base-size: 1em;
@@ -30,6 +30,7 @@
   --size-icons-lg:2em;
   --size-icons-md:1.4em;
   --size-icons-sm:1.1em;
+  --size-icons-xs:0.8em;
 
   /* Colors */
   --text-primary:#fafafa;

@@ -21,4 +21,4 @@ setting
 -wallpaper
 -time format
 
-//Todo: Swipe screens
+//Todo: WebCam for mobile
